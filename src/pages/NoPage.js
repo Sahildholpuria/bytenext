@@ -1,7 +1,14 @@
 import React from 'react'
+import image from './images/404.gif'
 
 const NoPage = () => {
-    return <h1>404</h1>;
+    return(
+        <>
+        <div>
+            <img src={image} alt="404" />
+        </div>
+        </>
+    )
   };
   
   export default NoPage;
